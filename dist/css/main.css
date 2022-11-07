@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #14120E;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 4s00;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.u-full-width {
+  width: 100%;
+}
+
+.line {
+  height: 1px;
+  margin: 2rem 0;
+  border: none;
+  background: #14120E;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem 0;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  padding: 1rem 0;
+}
+
+#book-form > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+#book-form > div label {
+  padding: 0 1rem;
+  background: #4F5B4D;
+  line-height: 2.2rem;
+  width: 6.5rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px 0 0 5px;
+}
+#book-form > div input {
+  padding: 0 1rem;
+  height: 2.2rem;
+  border: none;
+  background: #eee;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0 5px 5px 0;
+}
+#book-form > div input:focus {
+  outline: none;
+  border: 1.5px #4F5B4D solid;
+  background: #CACDC9;
+}
+#book-form > div input[type=submit] {
+  font-weight: 500;
+  text-transform: uppercase;
+  background: #CACDC9;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+#book-form > div input[type=submit]:hover {
+  background: #B5B8B4;
+}
+#book-form > div.error, #book-form > div.success, #book-form > div.deleted {
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding-left: 6rem;
+  font-size: 0.7rem;
+}
+#book-form > div.error {
+  color: #e50000;
+}
+#book-form > div.success, #book-form > div.deleted {
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 5px;
+}
+#book-form > div.success {
+  background: #B2D1B2;
+}
+#book-form > div.deleted {
+  background: #FFF7CC;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr.border-bottom {
+  border-bottom: 1px solid;
+}
+
+td {
+  padding-top: 1rem;
+}
+
+th {
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-weight: 500;
+  color: #4F5B4D;
+  text-transform: uppercase;
+}
+th i {
+  visibility: hidden;
+}
+
+td {
+  padding-left: 0.5rem;
+  font-size: 0.85rem;
+}
+td i {
+  cursor: pointer;
+  color: #4F5B4D;
+}/*# sourceMappingURL=main.css.map */

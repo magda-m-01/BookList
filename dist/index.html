@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Book List</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Add a Book</h1>
+        <form id="book-form">
+            <div>
+                <label for="title">Title</label>
+                <input type="text" id="title" class="u-full-width">
+            </div>
+            <div>
+                <label for="author">Author</label>
+                <input type="text" id="author" class="u-full-width">
+            </div>
+            <div>
+                <label for="isbn">ISBN#</label>
+                <input type="text" id="isbn" class="u-full-width">
+            </div>
+            <div>
+                <input type="submit" id="submit" value="Submit" class="u-full-width">
+            </div>
+        </form>
+        <!-- <hr> -->
+        <table class="u-full-width">
+            <thead>
+                <tr class="border-bottom">
+                    <!-- <div class="line"></div> -->
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th><i class="fa-solid fa-xmark"></i></th>
+                    <!-- <div class="line"></div> -->
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7b562c74a2.js" crossorigin="anonymous"></script>
+    <script src="appes6.js"></script>
+</body>
+</html>
